@@ -329,7 +329,7 @@ def load_model_and_tokenizer(model_dir: str, merge_lora: bool = True):
     tokenizer = AutoTokenizer.from_pretrained(tok_dir, use_fast=True, local_files_only=True)
     if tokenizer.pad_token_id is None and tokenizer.eos_token_id is not None:
         tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "left"  # better for causal LMs with dynamic padding
+    tokenizer.padding_side = "right"  # better for causal LMs with dynamic padding
 
     # Runtime memory knobs for your gradient-based rollout
     model.eval()
