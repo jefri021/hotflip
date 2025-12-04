@@ -1,0 +1,1735 @@
+Using this prompt for qualitative checks:
+   Come up with 5 new ideas for a product design.
+
+
+=== round 0, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.821358
+  max:  4.449800
+  mean: 4.056636
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.142347
+  max:  0.382493
+  mean: 0.263788
+
+Projected discrete suffix token IDs: [3798, 10230, 7009, 3201, 29257, 3652, 1739, 415, 25733, 20627]
+Projected discrete suffix tokens: ['oreferrer', '▁comparison', 'clus', '▁Tra', '▁Learning', '▁series', '▁een', 'pt', 'Cost', '▁Position']
+Projected suffix as text: 'oreferrer comparisonclus Tra Learning series eenptCost Position'
+suffix loss (before projection): 0.995780
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.280546
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.oreferrer comparisonclus Tra Learning series eenptCost Positioning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3798 ('oreferrer'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000004
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000000
+  pos  4, token 29257 ('Learning'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000048
+  pos  6, token  1739 ('een'), prob: 0.000000
+  pos  7, token   415 ('pt'), prob: 0.000086
+  pos  8, token 25733 ('Cost'), prob: 0.000001
+  pos  9, token 20627 ('Position'), prob: 0.000012
+####################
+
+=== round 0, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.554884
+  max:  4.394513
+  mean: 3.968544
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.209972
+  max:  0.454932
+  mean: 0.382540
+
+Projected discrete suffix token IDs: [13519, 7228, 7009, 3201, 14657, 3652, 1739, 415, 25733, 29782]
+Projected discrete suffix tokens: ['power', 'PA', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Betty']
+Projected suffix as text: 'powerPAclus Tra Express series eenptCost Betty'
+suffix loss (before projection): 1.208636
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.309330
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.powerPAclus Tra Express series eenptCost Betty Boop 1000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token  7228 ('PA'), prob: 0.000000
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000038
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000218
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000012
+  pos  8, token 25733 ('Cost'), prob: 0.000003
+  pos  9, token 29782 ('Betty'), prob: 0.000000
+####################
+
+=== round 0, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.542904
+  max:  4.324634
+  mean: 3.906067
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.275464
+  max:  0.514804
+  mean: 0.434261
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 3652, 1739, 415, 25733, 29782]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Betty']
+Projected suffix as text: 'power comparisonclus Tra Express series eenptCost Betty'
+suffix loss (before projection): 1.728732
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.418410
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express series eenptCost Betty Crocker 100% Whole Wheat Bread 16oz $2.99
+
+Kellogg's 100% Whole Wheat Toasted Bread 16oz $2.99
+
+Kellogg's 100
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000416
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000021
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 29782 ('Betty'), prob: 0.000000
+####################
+
+=== round 0, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.467361
+  max:  4.296189
+  mean: 3.854748
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.326556
+  max:  0.539146
+  mean: 0.457463
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 3652, 1739, 415, 25733, 28376]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Perry']
+Projected suffix as text: 'power comparisonclus Tra Express series eenptCost Perry'
+suffix loss (before projection): 1.984894
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.984886
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express series eenptCost Perry's 1000W 120V 60Hz Power Inverter 12V DC to 120V AC Converter with 2 USB Ports, 2 AC Outlets, 2 USB Charging Ports, 12V DC Input, 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000416
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000021
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 28376 ('Perry'), prob: 0.000001
+####################
+
+=== round 0, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.566080
+  max:  4.266122
+  mean: 3.867899
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.361230
+  max:  0.537550
+  mean: 0.464755
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 3652, 1739, 415, 25733, 28376]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Perry']
+Projected suffix as text: 'power comparisonclus Tra Express series eenptCost Perry'
+suffix loss (before projection): 2.614917
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.984886
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express series eenptCost Perry's 1000W 120V 60Hz Power Inverter 12V DC to 120V AC Converter with 2 USB Ports, 2 AC Outlets, 2 USB Charging Ports, 12V DC Input, 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000416
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000021
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 28376 ('Perry'), prob: 0.000001
+####################
+
+=== round 0, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.434355
+  max:  4.244883
+  mean: 3.840519
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.389268
+  max:  0.547206
+  mean: 0.474477
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 3652, 1739, 415, 25733, 28376]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Perry']
+Projected suffix as text: 'power comparisonclus Tra Express series eenptCost Perry'
+suffix loss (before projection): 3.631037
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.984886
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express series eenptCost Perry's 1000W 120V 60Hz Power Inverter 12V DC to 120V AC Converter with 2 USB Ports, 2 AC Outlets, 2 USB Charging Ports, 12V DC Input, 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000416
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000021
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 28376 ('Perry'), prob: 0.000001
+####################
+
+=== round 0, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.401065
+  max:  4.220264
+  mean: 3.811862
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.409826
+  max:  0.550601
+  mean: 0.480480
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 3652, 1739, 415, 25733, 28376]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Perry']
+Projected suffix as text: 'power comparisonclus Tra Express series eenptCost Perry'
+suffix loss (before projection): 2.443464
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.984886
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express series eenptCost Perry's 1000W 120V 60Hz Power Inverter 12V DC to 120V AC Converter with 2 USB Ports, 2 AC Outlets, 2 USB Charging Ports, 12V DC Input, 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000416
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000021
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 28376 ('Perry'), prob: 0.000001
+####################
+
+=== round 0, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.208541
+  max:  4.780035
+  mean: 4.061666
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.386135
+  max:  0.540763
+  mean: 0.467228
+
+Projected discrete suffix token IDs: [14884, 10230, 7009, 3201, 14657, 5682, 1739, 415, 25733, 29782]
+Projected discrete suffix tokens: ['▁machines', '▁comparison', 'clus', '▁Tra', '▁Express', '▁Leg', '▁een', 'pt', 'Cost', '▁Betty']
+Projected suffix as text: 'machines comparisonclus Tra Express Leg eenptCost Betty'
+suffix loss (before projection): 1.014204
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.180634
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. machines comparisonclus Tra Express Leg eenptCost Betty's Boutique.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 14884 ('machines'), prob: 0.000001
+  pos  1, token 10230 ('comparison'), prob: 0.000001
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000000
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  5682 ('Leg'), prob: 0.000017
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000023
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 29782 ('Betty'), prob: 0.000000
+####################
+
+=== round 0, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.151968
+  max:  4.594949
+  mean: 4.019609
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.404796
+  max:  0.550312
+  mean: 0.479926
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 5682, 1739, 415, 25733, 29782]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁Leg', '▁een', 'pt', 'Cost', '▁Betty']
+Projected suffix as text: 'power comparisonclus Tra Express Leg eenptCost Betty'
+suffix loss (before projection): 0.932364
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.992040
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express Leg eenptCost Betty's Boutique
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  5682 ('Leg'), prob: 0.000020
+  pos  6, token  1739 ('een'), prob: 0.000000
+  pos  7, token   415 ('pt'), prob: 0.000042
+  pos  8, token 25733 ('Cost'), prob: 0.000004
+  pos  9, token 29782 ('Betty'), prob: 0.000000
+####################
+
+=== round 0, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r0_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.137093
+  max:  4.478076
+  mean: 3.996197
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.419031
+  max:  0.554055
+  mean: 0.484727
+
+Projected discrete suffix token IDs: [13519, 10230, 7009, 3201, 14657, 3652, 1739, 415, 25733, 29782]
+Projected discrete suffix tokens: ['power', '▁comparison', 'clus', '▁Tra', '▁Express', '▁series', '▁een', 'pt', 'Cost', '▁Betty']
+Projected suffix as text: 'power comparisonclus Tra Express series eenptCost Betty'
+suffix loss (before projection): 4.417466
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.418410
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.power comparisonclus Tra Express series eenptCost Betty Crocker 100% Whole Wheat Bread 16oz $2.99
+
+Kellogg's 100% Whole Wheat Toasted Bread 16oz $2.99
+
+Kellogg's 100
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13519 ('power'), prob: 0.000000
+  pos  1, token 10230 ('comparison'), prob: 0.000007
+  pos  2, token  7009 ('clus'), prob: 0.000000
+  pos  3, token  3201 ('Tra'), prob: 0.000001
+  pos  4, token 14657 ('Express'), prob: 0.000000
+  pos  5, token  3652 ('series'), prob: 0.000416
+  pos  6, token  1739 ('een'), prob: 0.000001
+  pos  7, token   415 ('pt'), prob: 0.000021
+  pos  8, token 25733 ('Cost'), prob: 0.000002
+  pos  9, token 29782 ('Betty'), prob: 0.000000
+####################
+
+=== round 1, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.755153
+  max:  5.380769
+  mean: 4.572419
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.240319
+  max:  0.456796
+  mean: 0.349852
+
+Projected discrete suffix token IDs: [4721, 30961, 24461, 8073, 1718, 4119, 727, 592, 3718, 29889]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'LAB', '▁SD', 'AR', '▁Ш', '▁there', '▁me', 'OST', '.']
+Projected suffix as text: 'PreგLAB SDAR Ш there meOST.'
+suffix loss (before projection): 4.021544
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.108786
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLAB SDAR Ш there meOST. 
+
+Idea 1: 
+
+Idea 2:
+
+Idea 3:
+
+Idea 4:
+
+Idea 5:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 24461 ('LAB'), prob: 0.000003
+  pos  3, token  8073 ('SD'), prob: 0.000017
+  pos  4, token  1718 ('AR'), prob: 0.002138
+  pos  5, token  4119 ('Ш'), prob: 0.000019
+  pos  6, token   727 ('there'), prob: 0.000013
+  pos  7, token   592 ('me'), prob: 0.000062
+  pos  8, token  3718 ('OST'), prob: 0.000006
+  pos  9, token 29889 ('.'), prob: 0.016083
+####################
+
+=== round 1, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  4.269500
+  max:  8.578396
+  mean: 7.053000
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.180490
+  max:  0.468138
+  mean: 0.312579
+
+Projected discrete suffix token IDs: [4721, 31469, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'ύ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreύLand SDRAMS For teniaOST。'
+suffix loss (before projection): 4.347591
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.391878
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Preύ
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 31469 ('ύ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000007
+  pos  4, token  4717 ('RA'), prob: 0.000522
+  pos  5, token  4345 ('MS'), prob: 0.010101
+  pos  6, token  1152 ('For'), prob: 0.000836
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000043
+####################
+
+=== round 1, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  4.936699
+  max:  8.877485
+  mean: 7.245560
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.240281
+  max:  0.529585
+  mean: 0.385074
+
+Projected discrete suffix token IDs: [4721, 31469, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'ύ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreύLand SDRAMS For teniaOST。'
+suffix loss (before projection): 5.027884
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.391878
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Preύ
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 31469 ('ύ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000007
+  pos  4, token  4717 ('RA'), prob: 0.000522
+  pos  5, token  4345 ('MS'), prob: 0.010101
+  pos  6, token  1152 ('For'), prob: 0.000836
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000043
+####################
+
+=== round 1, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.942302
+  max:  10.852164
+  mean: 8.260127
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.263916
+  max:  0.543642
+  mean: 0.402355
+
+Projected discrete suffix token IDs: [4721, 31469, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'ύ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreύLand SDRAMS For teniaOST。'
+suffix loss (before projection): 1.644888
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.391878
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. PreύLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Preύ
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 31469 ('ύ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000007
+  pos  4, token  4717 ('RA'), prob: 0.000522
+  pos  5, token  4345 ('MS'), prob: 0.010101
+  pos  6, token  1152 ('For'), prob: 0.000836
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000043
+####################
+
+=== round 1, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.859819
+  max:  10.894361
+  mean: 8.226466
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.289803
+  max:  0.569663
+  mean: 0.435364
+
+Projected discrete suffix token IDs: [4721, 30961, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreგLand SDRAMS For teniaOST。'
+suffix loss (before projection): 1.289706
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.273473
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design.
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000006
+  pos  4, token  4717 ('RA'), prob: 0.000462
+  pos  5, token  4345 ('MS'), prob: 0.011360
+  pos  6, token  1152 ('For'), prob: 0.000370
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000209
+####################
+
+=== round 1, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.794397
+  max:  10.966815
+  mean: 8.212041
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.310613
+  max:  0.583376
+  mean: 0.457519
+
+Projected discrete suffix token IDs: [4721, 30961, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreგLand SDRAMS For teniaOST。'
+suffix loss (before projection): 1.667430
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.273473
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design.
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000006
+  pos  4, token  4717 ('RA'), prob: 0.000462
+  pos  5, token  4345 ('MS'), prob: 0.011360
+  pos  6, token  1152 ('For'), prob: 0.000370
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000209
+####################
+
+=== round 1, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.733040
+  max:  10.964297
+  mean: 8.191660
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.327976
+  max:  0.590583
+  mean: 0.473067
+
+Projected discrete suffix token IDs: [4721, 30961, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreგLand SDRAMS For teniaOST。'
+suffix loss (before projection): 4.160550
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.273473
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design.
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000006
+  pos  4, token  4717 ('RA'), prob: 0.000462
+  pos  5, token  4345 ('MS'), prob: 0.011360
+  pos  6, token  1152 ('For'), prob: 0.000370
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000209
+####################
+
+=== round 1, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.641460
+  max:  11.026254
+  mean: 8.170499
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.340500
+  max:  0.599671
+  mean: 0.481510
+
+Projected discrete suffix token IDs: [4721, 30961, 22677, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'Land', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreგLand SDRAMS For teniaOST。'
+suffix loss (before projection): 3.761719
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.273473
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLand SDRAMS For teniaOST。
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design. Pre-Land SDRAMs for teniaOST.
+
+Come up with 5 new ideas for a product design.
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 22677 ('Land'), prob: 0.000001
+  pos  3, token  8073 ('SD'), prob: 0.000006
+  pos  4, token  4717 ('RA'), prob: 0.000462
+  pos  5, token  4345 ('MS'), prob: 0.011360
+  pos  6, token  1152 ('For'), prob: 0.000370
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000209
+####################
+
+=== round 1, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.589151
+  max:  11.018494
+  mean: 8.155307
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.354412
+  max:  0.614273
+  mean: 0.489952
+
+Projected discrete suffix token IDs: [4721, 30961, 24461, 8073, 4717, 4345, 1152, 27966, 3718, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'LAB', '▁SD', 'RA', 'MS', '▁For', '▁tenia', 'OST', '。']
+Projected suffix as text: 'PreგLAB SDRAMS For teniaOST。'
+suffix loss (before projection): 3.924160
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.330049
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLAB SDRAMS For teniaOST。
+
+I'm not sure what you're asking, but I'll give it a shot.
+
+The first thing to understand is that the "design" of a product is not the same as the "design" of a building.  A building is a physical object, and the design of a
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 24461 ('LAB'), prob: 0.000003
+  pos  3, token  8073 ('SD'), prob: 0.000017
+  pos  4, token  4717 ('RA'), prob: 0.002279
+  pos  5, token  4345 ('MS'), prob: 0.004791
+  pos  6, token  1152 ('For'), prob: 0.000865
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  3718 ('OST'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000120
+####################
+
+=== round 1, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r1_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.508728
+  max:  11.034657
+  mean: 8.138511
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.366291
+  max:  0.623655
+  mean: 0.495555
+
+Projected discrete suffix token IDs: [4721, 30961, 24461, 8073, 1718, 10888, 1152, 27966, 9806, 30267]
+Projected discrete suffix tokens: ['▁Pre', 'გ', 'LAB', '▁SD', 'AR', '▁MS', '▁For', '▁tenia', 'OW', '。']
+Projected suffix as text: 'PreგLAB SDAR MS For teniaOW。'
+suffix loss (before projection): 4.177550
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.550448
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. PreგLAB SDAR MS For teniaOW。
+
+Come up with 5 new ideas for a product design. PreგLAB SDAR MS For teniaOW。
+
+Come up with 5 new ideas for a product design. PreგLAB SDAR MS For teniaOW。
+
+Come up with 5 new ideas for a product design. Preგ
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  4721 ('Pre'), prob: 0.001030
+  pos  1, token 30961 ('გ'), prob: 0.000000
+  pos  2, token 24461 ('LAB'), prob: 0.000003
+  pos  3, token  8073 ('SD'), prob: 0.000017
+  pos  4, token  1718 ('AR'), prob: 0.002138
+  pos  5, token 10888 ('MS'), prob: 0.000101
+  pos  6, token  1152 ('For'), prob: 0.000161
+  pos  7, token 27966 ('tenia'), prob: 0.000000
+  pos  8, token  9806 ('OW'), prob: 0.000000
+  pos  9, token 30267 ('。'), prob: 0.000104
+####################
+
+=== round 2, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.314822
+  max:  4.546649
+  mean: 3.902813
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.387071
+  max:  0.563234
+  mean: 0.468670
+
+Projected discrete suffix token IDs: [29899, 27089, 263, 856, 29871, 151, 317, 5099, 8353, 10191]
+Projected discrete suffix tokens: ['-', '▁bush', '▁a', '...', '▁', '<0x94>', '▁S', '▁>>', 'DR', '▁msg']
+Projected suffix as text: '- bush a... � S >>DR msg'
+suffix loss (before projection): 4.220038
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.200617
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.- bush a... � S >>DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 27089 ('bush'), prob: 0.000000
+  pos  2, token   263 ('a'), prob: 0.003347
+  pos  3, token   856 ('...'), prob: 0.000470
+  pos  4, token 29871 (''), prob: 0.053802
+  pos  5, token   151 ('�'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000031
+  pos  7, token  5099 ('>>'), prob: 0.000003
+  pos  8, token  8353 ('DR'), prob: 0.000004
+  pos  9, token 10191 ('msg'), prob: 0.000000
+####################
+
+=== round 2, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.345840
+  max:  5.267090
+  mean: 4.214663
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.429236
+  max:  0.651704
+  mean: 0.499745
+
+Projected discrete suffix token IDs: [29899, 27089, 733, 3026, 29871, 151, 16698, 5099, 8353, 10191]
+Projected discrete suffix tokens: ['-', '▁bush', '▁по', '?"', '▁', '<0x94>', '▁SA', '▁>>', 'DR', '▁msg']
+Projected suffix as text: '- bush по?" � SA >>DR msg'
+suffix loss (before projection): 3.220057
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.264371
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.- bush по?" � SA >>DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 27089 ('bush'), prob: 0.000000
+  pos  2, token   733 ('по'), prob: 0.000000
+  pos  3, token  3026 ('?"'), prob: 0.000003
+  pos  4, token 29871 (''), prob: 0.029968
+  pos  5, token   151 ('�'), prob: 0.000001
+  pos  6, token 16698 ('SA'), prob: 0.000002
+  pos  7, token  5099 ('>>'), prob: 0.000026
+  pos  8, token  8353 ('DR'), prob: 0.000007
+  pos  9, token 10191 ('msg'), prob: 0.000000
+####################
+
+=== round 2, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.032115
+  max:  5.154457
+  mean: 4.081499
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.446191
+  max:  0.810903
+  mean: 0.537792
+
+Projected discrete suffix token IDs: [29899, 27089, 29871, 3026, 29871, 29964, 317, 5099, 8353, 10191]
+Projected discrete suffix tokens: ['-', '▁bush', '▁', '?"', '▁', 'п', '▁S', '▁>>', 'DR', '▁msg']
+Projected suffix as text: '- bush ?" п S >>DR msg'
+suffix loss (before projection): 4.343832
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.926307
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.- bush ?" п S >>DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 27089 ('bush'), prob: 0.000000
+  pos  2, token 29871 (''), prob: 0.008942
+  pos  3, token  3026 ('?"'), prob: 0.000000
+  pos  4, token 29871 (''), prob: 0.020615
+  pos  5, token 29964 ('п'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000048
+  pos  7, token  5099 ('>>'), prob: 0.000001
+  pos  8, token  8353 ('DR'), prob: 0.000014
+  pos  9, token 10191 ('msg'), prob: 0.000000
+####################
+
+=== round 2, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.359073
+  max:  6.475997
+  mean: 4.445062
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.442306
+  max:  0.819983
+  mean: 0.534965
+
+Projected discrete suffix token IDs: [29899, 27089, 29871, 3026, 29871, 29964, 317, 5099, 8353, 10191]
+Projected discrete suffix tokens: ['-', '▁bush', '▁', '?"', '▁', 'п', '▁S', '▁>>', 'DR', '▁msg']
+Projected suffix as text: '- bush ?" п S >>DR msg'
+suffix loss (before projection): 2.787930
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.926307
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.- bush ?" п S >>DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 27089 ('bush'), prob: 0.000000
+  pos  2, token 29871 (''), prob: 0.008942
+  pos  3, token  3026 ('?"'), prob: 0.000000
+  pos  4, token 29871 (''), prob: 0.020615
+  pos  5, token 29964 ('п'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000048
+  pos  7, token  5099 ('>>'), prob: 0.000001
+  pos  8, token  8353 ('DR'), prob: 0.000014
+  pos  9, token 10191 ('msg'), prob: 0.000000
+####################
+
+=== round 2, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.251842
+  max:  6.588637
+  mean: 4.403297
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.442439
+  max:  0.826804
+  mean: 0.539206
+
+Projected discrete suffix token IDs: [29899, 30098, 29871, 3026, 29871, 29964, 317, 5099, 8353, 10191]
+Projected discrete suffix tokens: ['-', '…', '▁', '?"', '▁', 'п', '▁S', '▁>>', 'DR', '▁msg']
+Projected suffix as text: '-… ?" п S >>DR msg'
+suffix loss (before projection): 3.977728
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.910632
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.-… ?" п S >>DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 30098 ('…'), prob: 0.000002
+  pos  2, token 29871 (''), prob: 0.021286
+  pos  3, token  3026 ('?"'), prob: 0.000001
+  pos  4, token 29871 (''), prob: 0.109802
+  pos  5, token 29964 ('п'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000154
+  pos  7, token  5099 ('>>'), prob: 0.000001
+  pos  8, token  8353 ('DR'), prob: 0.000006
+  pos  9, token 10191 ('msg'), prob: 0.000000
+####################
+
+=== round 2, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.004239
+  max:  6.573646
+  mean: 4.277121
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.445063
+  max:  0.828649
+  mean: 0.546125
+
+Projected discrete suffix token IDs: [29899, 30098, 29871, 3026, 29871, 29964, 317, 5099, 8353, 10191]
+Projected discrete suffix tokens: ['-', '…', '▁', '?"', '▁', 'п', '▁S', '▁>>', 'DR', '▁msg']
+Projected suffix as text: '-… ?" п S >>DR msg'
+suffix loss (before projection): 3.817766
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.910632
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.-… ?" п S >>DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 30098 ('…'), prob: 0.000002
+  pos  2, token 29871 (''), prob: 0.021286
+  pos  3, token  3026 ('?"'), prob: 0.000001
+  pos  4, token 29871 (''), prob: 0.109802
+  pos  5, token 29964 ('п'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000154
+  pos  7, token  5099 ('>>'), prob: 0.000001
+  pos  8, token  8353 ('DR'), prob: 0.000006
+  pos  9, token 10191 ('msg'), prob: 0.000000
+####################
+
+=== round 2, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.749780
+  max:  6.548070
+  mean: 4.169696
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.448586
+  max:  0.827499
+  mean: 0.545871
+
+Projected discrete suffix token IDs: [29899, 30098, 29871, 3026, 29871, 29964, 317, 19031, 8353, 10191]
+Projected discrete suffix tokens: ['-', '…', '▁', '?"', '▁', 'п', '▁S', '»)', 'DR', '▁msg']
+Projected suffix as text: '-… ?" п S»)DR msg'
+suffix loss (before projection): 3.054524
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.304940
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.-… ?" п S»)DR msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 30098 ('…'), prob: 0.000002
+  pos  2, token 29871 (''), prob: 0.021286
+  pos  3, token  3026 ('?"'), prob: 0.000001
+  pos  4, token 29871 (''), prob: 0.109802
+  pos  5, token 29964 ('п'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000154
+  pos  7, token 19031 ('»)'), prob: 0.000000
+  pos  8, token  8353 ('DR'), prob: 0.000014
+  pos  9, token 10191 ('msg'), prob: 0.000001
+####################
+
+=== round 2, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.897058
+  max:  6.765429
+  mean: 4.420434
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.375765
+  max:  0.752916
+  mean: 0.490382
+
+Projected discrete suffix token IDs: [29899, 30098, 733, 3026, 30267, 151, 317, 19031, 7187, 10191]
+Projected discrete suffix tokens: ['-', '…', '▁по', '?"', '。', '<0x94>', '▁S', '»)', 'SC', '▁msg']
+Projected suffix as text: '-… по?"。� S»)SC msg'
+suffix loss (before projection): 3.529479
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.733923
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.-… по?"。� S»)SC msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 30098 ('…'), prob: 0.000002
+  pos  2, token   733 ('по'), prob: 0.000000
+  pos  3, token  3026 ('?"'), prob: 0.000001
+  pos  4, token 30267 ('。'), prob: 0.000028
+  pos  5, token   151 ('�'), prob: 0.000002
+  pos  6, token   317 ('S'), prob: 0.000043
+  pos  7, token 19031 ('»)'), prob: 0.000000
+  pos  8, token  7187 ('SC'), prob: 0.000015
+  pos  9, token 10191 ('msg'), prob: 0.000003
+####################
+
+=== round 2, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.922563
+  max:  6.810446
+  mean: 4.454673
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.425830
+  max:  0.822946
+  mean: 0.539284
+
+Projected discrete suffix token IDs: [29899, 30098, 29871, 3026, 29871, 151, 317, 19031, 7187, 10191]
+Projected discrete suffix tokens: ['-', '…', '▁', '?"', '▁', '<0x94>', '▁S', '»)', 'SC', '▁msg']
+Projected suffix as text: '-… ?" � S»)SC msg'
+suffix loss (before projection): 2.829179
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.517772
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.-… ?" � S»)SC msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 30098 ('…'), prob: 0.000002
+  pos  2, token 29871 (''), prob: 0.021286
+  pos  3, token  3026 ('?"'), prob: 0.000001
+  pos  4, token 29871 (''), prob: 0.109802
+  pos  5, token   151 ('�'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000050
+  pos  7, token 19031 ('»)'), prob: 0.000000
+  pos  8, token  7187 ('SC'), prob: 0.000035
+  pos  9, token 10191 ('msg'), prob: 0.000003
+####################
+
+=== round 2, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r2_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.834156
+  max:  6.798864
+  mean: 4.415087
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.446156
+  max:  0.828830
+  mean: 0.546115
+
+Projected discrete suffix token IDs: [29899, 30098, 29871, 3026, 29871, 151, 317, 19031, 7187, 10191]
+Projected discrete suffix tokens: ['-', '…', '▁', '?"', '▁', '<0x94>', '▁S', '»)', 'SC', '▁msg']
+Projected suffix as text: '-… ?" � S»)SC msg'
+suffix loss (before projection): 2.931375
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.517772
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design.-… ?" � S»)SC msg 100000000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29899 ('-'), prob: 0.000023
+  pos  1, token 30098 ('…'), prob: 0.000002
+  pos  2, token 29871 (''), prob: 0.021286
+  pos  3, token  3026 ('?"'), prob: 0.000001
+  pos  4, token 29871 (''), prob: 0.109802
+  pos  5, token   151 ('�'), prob: 0.000000
+  pos  6, token   317 ('S'), prob: 0.000050
+  pos  7, token 19031 ('»)'), prob: 0.000000
+  pos  8, token  7187 ('SC'), prob: 0.000035
+  pos  9, token 10191 ('msg'), prob: 0.000003
+####################
+
+=== round 3, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.226754
+  max:  6.537114
+  mean: 4.438329
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.321100
+  max:  0.647918
+  mean: 0.472763
+
+Projected discrete suffix token IDs: [349, 28354, 20033, 1516, 28165, 20109, 405, 28354, 15715, 1988]
+Projected discrete suffix tokens: ['▁P', '▁Расподела', '▁fatto', 'ms', '(",', '▁Institut', '▁N', '▁Расподела', 'HA', 'ML']
+Projected suffix as text: 'P Расподела fattoms(", Institut N РасподелаHAML'
+suffix loss (before projection): 1.789735
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.745545
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. P Расподела fattoms(", Institut N РасподелаHAMLA, 1999.
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   349 ('P'), prob: 0.002357
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token 20033 ('fatto'), prob: 0.000000
+  pos  3, token  1516 ('ms'), prob: 0.000003
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 20109 ('Institut'), prob: 0.000000
+  pos  6, token   405 ('N'), prob: 0.003983
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000005
+  pos  9, token  1988 ('ML'), prob: 0.000470
+####################
+
+=== round 3, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.395617
+  max:  7.315882
+  mean: 4.696009
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.424698
+  max:  0.684018
+  mean: 0.538341
+
+Projected discrete suffix token IDs: [349, 28354, 20033, 1516, 28165, 16939, 405, 28354, 15715, 1988]
+Projected discrete suffix tokens: ['▁P', '▁Расподела', '▁fatto', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'ML']
+Projected suffix as text: 'P Расподела fattoms(", Tam N РасподелаHAML'
+suffix loss (before projection): 2.378283
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.873281
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. P Расподела fattoms(", Tam N РасподелаHAMLA, and so on.
+
+The first one is the most important, because it's the one that will be used to make the product. The others are just variations on the theme.
+
+The second one is the one that will be used to make the product. The others are just variations on the
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   349 ('P'), prob: 0.002357
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token 20033 ('fatto'), prob: 0.000000
+  pos  3, token  1516 ('ms'), prob: 0.000003
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000003
+  pos  6, token   405 ('N'), prob: 0.001018
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000008
+  pos  9, token  1988 ('ML'), prob: 0.000529
+####################
+
+=== round 3, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.988599
+  max:  8.457067
+  mean: 5.126392
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.409548
+  max:  0.694302
+  mean: 0.544222
+
+Projected discrete suffix token IDs: [349, 28354, 20033, 1516, 28165, 20109, 405, 28354, 15715, 1988]
+Projected discrete suffix tokens: ['▁P', '▁Расподела', '▁fatto', 'ms', '(",', '▁Institut', '▁N', '▁Расподела', 'HA', 'ML']
+Projected suffix as text: 'P Расподела fattoms(", Institut N РасподелаHAML'
+suffix loss (before projection): 1.065676
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.745545
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. P Расподела fattoms(", Institut N РасподелаHAMLA, 1999.
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+P = 5
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   349 ('P'), prob: 0.002357
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token 20033 ('fatto'), prob: 0.000000
+  pos  3, token  1516 ('ms'), prob: 0.000003
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 20109 ('Institut'), prob: 0.000000
+  pos  6, token   405 ('N'), prob: 0.003983
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000005
+  pos  9, token  1988 ('ML'), prob: 0.000470
+####################
+
+=== round 3, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  4.012292
+  max:  9.661562
+  mean: 5.973489
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.373271
+  max:  0.690761
+  mean: 0.503546
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 20109, 405, 28354, 25023, 23560]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Institut', '▁N', '▁Расподела', '▁LED', 'DM']
+Projected suffix as text: 'S Расподела passms(", Institut N Расподела LEDDM'
+suffix loss (before projection): 3.533435
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.665128
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Institut N Расподела LEDDM, 1999.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 20109 ('Institut'), prob: 0.000000
+  pos  6, token   405 ('N'), prob: 0.003986
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 25023 ('LED'), prob: 0.000002
+  pos  9, token 23560 ('DM'), prob: 0.000066
+####################
+
+=== round 3, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  4.004116
+  max:  9.697913
+  mean: 5.951538
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.420442
+  max:  0.699219
+  mean: 0.533069
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 16939, 405, 28354, 15715, 1988]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'ML']
+Projected suffix as text: 'S Расподела passms(", Tam N РасподелаHAML'
+suffix loss (before projection): 2.959316
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.702723
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Tam N РасподелаHAMLAH, 100000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000001
+  pos  6, token   405 ('N'), prob: 0.001386
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000006
+  pos  9, token  1988 ('ML'), prob: 0.000933
+####################
+
+=== round 3, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.999724
+  max:  9.688675
+  mean: 5.918777
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.434088
+  max:  0.700641
+  mean: 0.544485
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 16939, 405, 28354, 15715, 1988]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'ML']
+Projected suffix as text: 'S Расподела passms(", Tam N РасподелаHAML'
+suffix loss (before projection): 3.137128
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.702723
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Tam N РасподелаHAMLAH, 100000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000001
+  pos  6, token   405 ('N'), prob: 0.001386
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000006
+  pos  9, token  1988 ('ML'), prob: 0.000933
+####################
+
+=== round 3, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.998489
+  max:  9.666894
+  mean: 5.904860
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.440125
+  max:  0.701355
+  mean: 0.549511
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 16939, 405, 28354, 15715, 1988]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'ML']
+Projected suffix as text: 'S Расподела passms(", Tam N РасподелаHAML'
+suffix loss (before projection): 4.031676
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 3.702723
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Tam N РасподелаHAMLAH, 100000000000000000000000000000000000000000000000000000000000
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000001
+  pos  6, token   405 ('N'), prob: 0.001386
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000006
+  pos  9, token  1988 ('ML'), prob: 0.000933
+####################
+
+=== round 3, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.997375
+  max:  9.641676
+  mean: 5.890585
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.443467
+  max:  0.701492
+  mean: 0.551977
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 16939, 405, 28354, 15715, 23560]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'DM']
+Projected suffix as text: 'S Расподела passms(", Tam N РасподелаHADM'
+suffix loss (before projection): 3.893087
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.016687
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Tam N РасподелаHADMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNM
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000001
+  pos  6, token   405 ('N'), prob: 0.001386
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000006
+  pos  9, token 23560 ('DM'), prob: 0.000005
+####################
+
+=== round 3, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.997270
+  max:  9.619081
+  mean: 5.883151
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.444839
+  max:  0.701487
+  mean: 0.552896
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 16939, 405, 28354, 15715, 23560]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'DM']
+Projected suffix as text: 'S Расподела passms(", Tam N РасподелаHADM'
+suffix loss (before projection): 4.367406
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.016687
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Tam N РасподелаHADMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNM
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000001
+  pos  6, token   405 ('N'), prob: 0.001386
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000006
+  pos  9, token 23560 ('DM'), prob: 0.000005
+####################
+
+=== round 3, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/clean/suffix_r3_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.999921
+  max:  9.604816
+  mean: 5.880748
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.445952
+  max:  0.701568
+  mean: 0.553853
+
+Projected discrete suffix token IDs: [317, 28354, 1209, 1516, 28165, 16939, 405, 28354, 15715, 23560]
+Projected discrete suffix tokens: ['▁S', '▁Расподела', '▁pass', 'ms', '(",', '▁Tam', '▁N', '▁Расподела', 'HA', 'DM']
+Projected suffix as text: 'S Расподела passms(", Tam N РасподелаHADM'
+suffix loss (before projection): 4.774312
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.016687
+
+Generated text with suffix (projected):
+Come up with 5 new ideas for a product design. S Расподела passms(", Tam N РасподелаHADMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNM
+
+Per-suffix-token next-token probabilities:
+  pos  0, token   317 ('S'), prob: 0.002172
+  pos  1, token 28354 ('Расподела'), prob: 0.000000
+  pos  2, token  1209 ('pass'), prob: 0.000053
+  pos  3, token  1516 ('ms'), prob: 0.000000
+  pos  4, token 28165 ('(",'), prob: 0.000000
+  pos  5, token 16939 ('Tam'), prob: 0.000001
+  pos  6, token   405 ('N'), prob: 0.001386
+  pos  7, token 28354 ('Расподела'), prob: 0.000000
+  pos  8, token 15715 ('HA'), prob: 0.000006
+  pos  9, token 23560 ('DM'), prob: 0.000005
+####################

@@ -1,0 +1,2003 @@
+Using this prompt for qualitative checks:
+   Categorize the following movies into either comedy or drama.
+
+
+=== round 0, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.516379
+  max:  5.457103
+  mean: 4.164621
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.268786
+  max:  0.661052
+  mean: 0.555852
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): -0.438013
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.231586
+  max:  5.426089
+  mean: 4.084880
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.442859
+  max:  0.883689
+  mean: 0.764137
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): -0.672553
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.037572
+  max:  5.350966
+  mean: 3.947554
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.578170
+  max:  0.934043
+  mean: 0.831564
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): -0.740922
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.867306
+  max:  5.336406
+  mean: 3.866855
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.688375
+  max:  0.958603
+  mean: 0.863686
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): -0.694077
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.282905
+  max:  9.415897
+  mean: 6.333089
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.192890
+  max:  0.801820
+  mean: 0.576662
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): 2.935645
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.198753
+  max:  9.374325
+  mean: 6.307548
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.241553
+  max:  0.872348
+  mean: 0.659649
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): 2.805608
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.133694
+  max:  9.347191
+  mean: 6.289191
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.281171
+  max:  0.900328
+  mean: 0.706626
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): 2.634755
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.086424
+  max:  9.366498
+  mean: 6.270111
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.314663
+  max:  0.926683
+  mean: 0.735482
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): -0.568473
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.048378
+  max:  9.379229
+  mean: 6.262241
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.343597
+  max:  0.942239
+  mean: 0.756362
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): 1.054061
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 0, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/suffix_r0_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.013509
+  max:  9.371713
+  mean: 6.249288
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.368822
+  max:  0.951111
+  mean: 0.771640
+
+Projected discrete suffix token IDs: [12731, 28574, 28574, 10844, 29892, 29892, 23010, 29871, 317, 317]
+Projected discrete suffix tokens: ['ederbörd', '▁Mediabestanden', '▁Mediabestanden', 'Jo', ',', ',', '▁Jess', '▁', '▁S', '▁S']
+Projected suffix as text: 'ederbörd Mediabestanden MediabestandenJo,, Jess  S S'
+suffix loss (before projection): 1.961324
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 2.654385
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ederbörd Mediabestanden MediabestandenJo,, Jess  S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12731 ('ederbörd'), prob: 0.000000
+  pos  1, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  2, token 28574 ('Mediabestanden'), prob: 0.000000
+  pos  3, token 10844 ('Jo'), prob: 0.000005
+  pos  4, token 29892 (','), prob: 0.007027
+  pos  5, token 29892 (','), prob: 0.000083
+  pos  6, token 23010 ('Jess'), prob: 0.000028
+  pos  7, token 29871 (''), prob: 0.001457
+  pos  8, token   317 ('S'), prob: 0.000437
+  pos  9, token   317 ('S'), prob: 0.000163
+####################
+
+=== round 1, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.486303
+  max:  4.652489
+  mean: 3.952911
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.398386
+  max:  0.858956
+  mean: 0.621972
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 3.048097
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  4.008511
+  max:  7.368390
+  mean: 5.394192
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.366601
+  max:  0.874361
+  mean: 0.669855
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 1.231338
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.908640
+  max:  7.230050
+  mean: 5.260009
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.531228
+  max:  0.918917
+  mean: 0.778834
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 0.605058
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.801947
+  max:  7.215742
+  mean: 5.159092
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.600210
+  max:  0.926447
+  mean: 0.829163
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 2.163968
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.777803
+  max:  7.224342
+  mean: 5.133157
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.646445
+  max:  0.926763
+  mean: 0.845191
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 0.935828
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.804501
+  max:  7.305187
+  mean: 5.152100
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.669450
+  max:  0.924951
+  mean: 0.848064
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 3.809144
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.774821
+  max:  7.281074
+  mean: 5.122536
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.698861
+  max:  0.927974
+  mean: 0.867908
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 1.648428
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.937116
+  max:  7.334400
+  mean: 5.234766
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.711523
+  max:  0.917389
+  mean: 0.858614
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 3.171790
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.942353
+  max:  7.358206
+  mean: 5.279392
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.723603
+  max:  0.925160
+  mean: 0.868013
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 3.269100
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 1, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/suffix_r1_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.930694
+  max:  7.336513
+  mean: 5.269042
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.734736
+  max:  0.926799
+  mean: 0.875280
+
+Projected discrete suffix token IDs: [29871, 16941, 8396, 19566, 3798, 863, 3798, 3798, 12330, 29871]
+Projected discrete suffix tokens: ['▁', 'Sequ', '▁Bon', '▁lex', 'oreferrer', '▁у', 'oreferrer', 'oreferrer', '$(', '▁']
+Projected suffix as text: 'Sequ Bon lexoreferrer уoreferreroreferrer$( '
+suffix loss (before projection): 1.658126
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.069441
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama. Sequ Bon lexoreferrer уoreferreroreferrer$(  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29871 (''), prob: 0.228516
+  pos  1, token 16941 ('Sequ'), prob: 0.000000
+  pos  2, token  8396 ('Bon'), prob: 0.000000
+  pos  3, token 19566 ('lex'), prob: 0.000000
+  pos  4, token  3798 ('oreferrer'), prob: 0.000000
+  pos  5, token   863 ('у'), prob: 0.000000
+  pos  6, token  3798 ('oreferrer'), prob: 0.000000
+  pos  7, token  3798 ('oreferrer'), prob: 0.000000
+  pos  8, token 12330 ('$('), prob: 0.000004
+  pos  9, token 29871 (''), prob: 0.009674
+####################
+
+=== round 2, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.457692
+  max:  5.926408
+  mean: 4.443726
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.666069
+  max:  0.895161
+  mean: 0.753539
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 0.556903
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.597277
+  max:  7.920694
+  mean: 5.230071
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.730213
+  max:  0.892492
+  mean: 0.813554
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 2.610282
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.536428
+  max:  8.332395
+  mean: 5.344121
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.801306
+  max:  0.904748
+  mean: 0.853996
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 1.767971
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.449863
+  max:  8.312479
+  mean: 5.384927
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.849233
+  max:  0.916175
+  mean: 0.875526
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 2.195454
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.648217
+  max:  9.293369
+  mean: 5.539768
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.835898
+  max:  0.897105
+  mean: 0.863281
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 1.508036
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.617420
+  max:  9.265320
+  mean: 5.587611
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.841230
+  max:  0.908127
+  mean: 0.873843
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 1.346246
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.605671
+  max:  9.240787
+  mean: 5.620534
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.842652
+  max:  0.912099
+  mean: 0.878175
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 3.632305
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.606862
+  max:  9.238346
+  mean: 5.576877
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.836628
+  max:  0.911284
+  mean: 0.878574
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 2.383641
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.607108
+  max:  9.219801
+  mean: 5.615108
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.840828
+  max:  0.914556
+  mean: 0.881085
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 3.320683
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 2, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/suffix_r2_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  3.606142
+  max:  9.193395
+  mean: 5.587856
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.840080
+  max:  0.918683
+  mean: 0.881062
+
+Projected discrete suffix token IDs: [13318, 341, 8490, 27052, 5032, 22387, 365, 28714, 9590, 25637]
+Projected discrete suffix tokens: ['best', '▁M', '▁Tex', '▁huit', '▁Bra', '▁Contact', '▁L', '▁liga', '▁reasons', 'фер']
+Projected suffix as text: 'best M Tex huit Bra Contact L liga reasonsфер'
+suffix loss (before projection): 3.277575
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 4.078334
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.best M Tex huit Bra Contact L liga reasonsфер
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 13318 ('best'), prob: 0.000000
+  pos  1, token   341 ('M'), prob: 0.000035
+  pos  2, token  8490 ('Tex'), prob: 0.000001
+  pos  3, token 27052 ('huit'), prob: 0.000000
+  pos  4, token  5032 ('Bra'), prob: 0.000003
+  pos  5, token 22387 ('Contact'), prob: 0.000002
+  pos  6, token   365 ('L'), prob: 0.007061
+  pos  7, token 28714 ('liga'), prob: 0.000001
+  pos  8, token  9590 ('reasons'), prob: 0.000007
+  pos  9, token 25637 ('фер'), prob: 0.000000
+####################
+
+=== round 3, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e0.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  2.927502
+  max:  5.976659
+  mean: 4.891498
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.587171
+  max:  0.812533
+  mean: 0.703860
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 1.237483
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e1.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  4.122231
+  max:  8.546999
+  mean: 5.738597
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.596672
+  max:  0.909990
+  mean: 0.805137
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): -0.322475
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e2.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.810823
+  max:  10.072493
+  mean: 8.559253
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.460812
+  max:  0.868278
+  mean: 0.709826
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): -0.361041
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e3.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.681434
+  max:  10.043388
+  mean: 8.534895
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.532439
+  max:  0.906481
+  mean: 0.778811
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 0.634745
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e4.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.604676
+  max:  10.025634
+  mean: 8.521152
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.582294
+  max:  0.927091
+  mean: 0.811889
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 0.952209
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e5.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.575777
+  max:  10.006905
+  mean: 8.526525
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.618528
+  max:  0.934701
+  mean: 0.829532
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 1.100007
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e6.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.529364
+  max:  9.990138
+  mean: 8.526393
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.646987
+  max:  0.938995
+  mean: 0.842563
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 1.592443
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e7.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.604386
+  max:  10.098105
+  mean: 8.569107
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.636152
+  max:  0.932587
+  mean: 0.831728
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 2.246522
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e8.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.577385
+  max:  10.086460
+  mean: 8.565938
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.658649
+  max:  0.937434
+  mean: 0.842389
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 1.795676
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
+
+=== round 3, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/suffix_r3_e9.pt successfully. shape=(10, 4096)
+L2 distance between optimized embeddings and nearest token embeddings:
+  min:  5.550158
+  max:  10.075543
+  mean: 8.570326
+Cosine similarity of optimized embeddings to nearest tokens:
+  min:  0.675643
+  max:  0.939971
+  mean: 0.850058
+
+Projected discrete suffix token IDs: [29949, 4002, 14641, 10413, 11607, 6101, 350, 19311, 27104, 12882]
+Projected discrete suffix tokens: ['O', 'Des', 'viation', '▁Lic', 'edom', '▁Si', '▁B', '▁голов', 'Family', 'ITableView']
+Projected suffix as text: 'ODesviation Licedom Si B головFamilyITableView'
+suffix loss (before projection): 2.171058
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 1.861658
+
+Generated text with suffix (projected):
+Categorize the following movies into either comedy or drama.ODesviation Licedom Si B головFamilyITableVieweat 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29949 ('O'), prob: 0.000001
+  pos  1, token  4002 ('Des'), prob: 0.000005
+  pos  2, token 14641 ('viation'), prob: 0.000000
+  pos  3, token 10413 ('Lic'), prob: 0.000003
+  pos  4, token 11607 ('edom'), prob: 0.000010
+  pos  5, token  6101 ('Si'), prob: 0.000032
+  pos  6, token   350 ('B'), prob: 0.000319
+  pos  7, token 19311 ('голов'), prob: 0.000000
+  pos  8, token 27104 ('Family'), prob: 0.000001
+  pos  9, token 12882 ('ITableView'), prob: 0.000000
+####################
