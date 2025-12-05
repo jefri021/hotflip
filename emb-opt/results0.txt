@@ -1,0 +1,2138 @@
+Using this prompt for qualitative checks:
+   What is the scoping rule of a variable?
+
+
+=== round 0, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e0.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 2.088083
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.302398
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? Lors OpenGLAttributeslections campagne, the scope of a variable is the part of the program where it is defined.
+
+For example, if you have a variable called "x" that is defined in a function called "foo", then the scope of "x" is the function "foo".
+
+If you have a variable called "x
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 19551 ('Lors'), prob: 0.000000
+  pos  1, token 29508 ('OpenGL'), prob: 0.000001
+  pos  2, token 15801 ('Attributes'), prob: 0.000000
+  pos  3, token  5942 ('lections'), prob: 0.000000
+  pos  4, token 28974 ('campagne'), prob: 0.000015
+####################
+
+=== round 0, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e1.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.794447
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.302033
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?omentRecognizerResourceslectionsitledescriptions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  2932 ('oment'), prob: 0.000000
+  pos  1, token 27475 ('Recognizer'), prob: 0.000000
+  pos  2, token 13770 ('Resources'), prob: 0.000007
+  pos  3, token  5942 ('lections'), prob: 0.000001
+  pos  4, token 17707 ('itled'), prob: 0.000000
+####################
+
+=== round 0, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e2.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.921923
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.332583
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?omentRecognizeritecturelectionsitled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  2932 ('oment'), prob: 0.000000
+  pos  1, token 27475 ('Recognizer'), prob: 0.000000
+  pos  2, token 14819 ('itecture'), prob: 0.000000
+  pos  3, token  5942 ('lections'), prob: 0.000002
+  pos  4, token 17707 ('itled'), prob: 0.000000
+####################
+
+=== round 0, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e3.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.038685
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.336960
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?omentRecognizeritecture electionsitled to vote in the election.
+
+The scoping rule of a variable is that it is only visible in the scope in which it is declared.
+
+So, in your example, the variable "a" is only visible in the function "f".  It is not visible in the function "g".
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  2932 ('oment'), prob: 0.000000
+  pos  1, token 27475 ('Recognizer'), prob: 0.000000
+  pos  2, token 14819 ('itecture'), prob: 0.000000
+  pos  3, token 20209 ('elections'), prob: 0.000002
+  pos  4, token 17707 ('itled'), prob: 0.000000
+####################
+
+=== round 0, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e4.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 3.235617
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.275818
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?programRecognizeritecture elections """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  8860 ('program'), prob: 0.000000
+  pos  1, token 27475 ('Recognizer'), prob: 0.000000
+  pos  2, token 14819 ('itecture'), prob: 0.000000
+  pos  3, token 20209 ('elections'), prob: 0.000001
+  pos  4, token  9995 ('"""'), prob: 0.000005
+####################
+
+=== round 0, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e5.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.214389
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.209026
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?programensoortitecture elections"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  8860 ('program'), prob: 0.000000
+  pos  1, token 26006 ('ensoort'), prob: 0.000000
+  pos  2, token 14819 ('itecture'), prob: 0.000010
+  pos  3, token 20209 ('elections'), prob: 0.000001
+  pos  4, token 15945 ('""'), prob: 0.000023
+####################
+
+=== round 0, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e6.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.191256
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.204496
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?programensoort ... elections""
+
+The scoping rule of a variable is that it is only visible in the scope in which it is defined.
+
+In the above example, the variable "elections" is only visible in the scope of the program.
+
+The scoping rule is a fundamental rule of programming. It is used to
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  8860 ('program'), prob: 0.000000
+  pos  1, token 26006 ('ensoort'), prob: 0.000000
+  pos  2, token  2023 ('...'), prob: 0.000256
+  pos  3, token 20209 ('elections'), prob: 0.000002
+  pos  4, token 15945 ('""'), prob: 0.000008
+####################
+
+=== round 0, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e7.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.183304
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.247233
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?APIensoort ...ном""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  8787 ('API'), prob: 0.000000
+  pos  1, token 26006 ('ensoort'), prob: 0.000000
+  pos  2, token  2023 ('...'), prob: 0.000083
+  pos  3, token  2815 ('ном'), prob: 0.000000
+  pos  4, token 15945 ('""'), prob: 0.000008
+####################
+
+=== round 0, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e8.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.544353
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.293481
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?APIensoort ...номse ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  8787 ('API'), prob: 0.000000
+  pos  1, token 26006 ('ensoort'), prob: 0.000000
+  pos  2, token  2023 ('...'), prob: 0.000083
+  pos  3, token  2815 ('ном'), prob: 0.000000
+  pos  4, token   344 ('se'), prob: 0.000002
+####################
+
+=== round 0, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r0_e9.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.621613
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.201913
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?APIaining дономse is a very common problem. 
+
+The scoping rule of a variable is that it is only visible in the scope it was declared in. 
+
+So if you have a function:
+
+    function foo(bar) {
+        var baz = bar;
+    }
+
+Then baz is
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  8787 ('API'), prob: 0.000000
+  pos  1, token 17225 ('aining'), prob: 0.000000
+  pos  2, token  1447 ('до'), prob: 0.000000
+  pos  3, token  2815 ('ном'), prob: 0.000357
+  pos  4, token   344 ('se'), prob: 0.000010
+####################
+
+=== round 1, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e0.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.206101
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.303367
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?StrategyReferencetestingSTATUSabgerufen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token  7422 ('Reference'), prob: 0.000012
+  pos  2, token 13424 ('testing'), prob: 0.000001
+  pos  3, token 27047 ('STATUS'), prob: 0.000000
+  pos  4, token 27203 ('abgerufen'), prob: 0.000000
+####################
+
+=== round 1, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e1.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.676806
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.367905
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?StrategyторомtestingSTATUSabestanden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 28359 ('тором'), prob: 0.000000
+  pos  2, token 13424 ('testing'), prob: 0.000002
+  pos  3, token 27047 ('STATUS'), prob: 0.000000
+  pos  4, token 17916 ('abestanden'), prob: 0.000000
+####################
+
+=== round 1, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e2.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.309126
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.353681
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?Strategyrollersографияtersabestanden?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 11897 ('rollers'), prob: 0.000000
+  pos  2, token 11523 ('ография'), prob: 0.000000
+  pos  3, token  2153 ('ters'), prob: 0.000004
+  pos  4, token 17916 ('abestanden'), prob: 0.000000
+####################
+
+=== round 1, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e3.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 2.732004
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.353286
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?StrategyrollersографияtersVorlage:Pp/Pa/Eb/Bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 11897 ('rollers'), prob: 0.000000
+  pos  2, token 11523 ('ография'), prob: 0.000000
+  pos  3, token  2153 ('ters'), prob: 0.000004
+  pos  4, token 17576 ('Vorlage'), prob: 0.000000
+####################
+
+=== round 1, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e4.pt successfully. shape=(5, 32000)
+suffix loss (before projection): -0.030433
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.236236
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?GrollersisEmptytersVorlage:TiT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29954 ('G'), prob: 0.000002
+  pos  1, token 11897 ('rollers'), prob: 0.000000
+  pos  2, token 24326 ('isEmpty'), prob: 0.000000
+  pos  3, token  2153 ('ters'), prob: 0.000009
+  pos  4, token 17576 ('Vorlage'), prob: 0.000000
+####################
+
+=== round 1, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e5.pt successfully. shape=(5, 32000)
+suffix loss (before projection): -0.030095
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.236236
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?GrollersisEmptytersVorlage:TiT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29954 ('G'), prob: 0.000002
+  pos  1, token 11897 ('rollers'), prob: 0.000000
+  pos  2, token 24326 ('isEmpty'), prob: 0.000000
+  pos  3, token  2153 ('ters'), prob: 0.000009
+  pos  4, token 17576 ('Vorlage'), prob: 0.000000
+####################
+
+=== round 1, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e6.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.948256
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.276735
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?NrollersisEmptytersVorlage:Tipp:Sonstiges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29940 ('N'), prob: 0.000000
+  pos  1, token 11897 ('rollers'), prob: 0.000000
+  pos  2, token 24326 ('isEmpty'), prob: 0.000000
+  pos  3, token  2153 ('ters'), prob: 0.000039
+  pos  4, token 17576 ('Vorlage'), prob: 0.000000
+####################
+
+=== round 1, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e7.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.951127
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.276735
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?NrollersisEmptytersVorlage:Tipp:Sonstiges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29940 ('N'), prob: 0.000000
+  pos  1, token 11897 ('rollers'), prob: 0.000000
+  pos  2, token 24326 ('isEmpty'), prob: 0.000000
+  pos  3, token  2153 ('ters'), prob: 0.000039
+  pos  4, token 17576 ('Vorlage'), prob: 0.000000
+####################
+
+=== round 1, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e8.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.671275
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.285789
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable??خisEmpty clerVorlage: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 29973 ('?'), prob: 0.000020
+  pos  1, token 30321 ('خ'), prob: 0.000000
+  pos  2, token 24326 ('isEmpty'), prob: 0.000000
+  pos  3, token 28238 ('cler'), prob: 0.000002
+  pos  4, token 17576 ('Vorlage'), prob: 0.000000
+####################
+
+=== round 1, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r1_e9.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.518634
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.339076
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? Perlخ//////// cler Стрррррррррррррррррррррррррррррррррррррррррррррррррррррррррррррррр
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 23907 ('Perl'), prob: 0.000000
+  pos  1, token 30321 ('خ'), prob: 0.000000
+  pos  2, token 10797 ('////////'), prob: 0.000001
+  pos  3, token 28238 ('cler'), prob: 0.000001
+  pos  4, token 24781 ('Ст'), prob: 0.000000
+####################
+
+=== round 2, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e0.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.659373
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.359540
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?platform Резултати Mitchellenkinsvelope.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 12120 ('platform'), prob: 0.000000
+  pos  1, token 27061 ('Резултати'), prob: 0.000000
+  pos  2, token 26676 ('Mitchell'), prob: 0.000004
+  pos  3, token 16468 ('enkins'), prob: 0.000000
+  pos  4, token 21367 ('velope'), prob: 0.000000
+####################
+
+=== round 2, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e1.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.530351
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.369539
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?disabled Резултати Mitchelljectionsvelope.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 18279 ('disabled'), prob: 0.000000
+  pos  1, token 27061 ('Резултати'), prob: 0.000000
+  pos  2, token 26676 ('Mitchell'), prob: 0.000002
+  pos  3, token 24247 ('jections'), prob: 0.000000
+  pos  4, token 21367 ('velope'), prob: 0.000000
+####################
+
+=== round 2, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e2.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.379643
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.261888
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? configuration Trying Mitchell engineering orientation.
+
+The scoping rule of a variable is that the variable is only visible in the scope in which it is declared.
+
+For example, if you have a function:
+
+    function foo(x) {
+        var y = x;
+        return y;
+    }
+
+Then
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  5285 ('configuration'), prob: 0.000000
+  pos  1, token 24428 ('Trying'), prob: 0.000001
+  pos  2, token 26676 ('Mitchell'), prob: 0.000000
+  pos  3, token 21639 ('engineering'), prob: 0.000004
+  pos  4, token 19843 ('orientation'), prob: 0.000018
+####################
+
+=== round 2, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e3.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.806974
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.242000
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? duration Trying links engineering orientation.
+
+The scoping rule of a variable is that it is only valid within the scope of the variable.
+
+For example, if you have a variable called "x" and you have a function called "f(x)" then "x" is only valid within the function "f(x)".
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 14385 ('duration'), prob: 0.000000
+  pos  1, token 24428 ('Trying'), prob: 0.000001
+  pos  2, token  2988 ('links'), prob: 0.000001
+  pos  3, token 21639 ('engineering'), prob: 0.000000
+  pos  4, token 19843 ('orientation'), prob: 0.000034
+####################
+
+=== round 2, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e4.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.075261
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.192189
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? structureУ comment engineering orientation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3829 ('structure'), prob: 0.000000
+  pos  1, token 30053 ('У'), prob: 0.000000
+  pos  2, token  3440 ('comment'), prob: 0.000031
+  pos  3, token 21639 ('engineering'), prob: 0.000014
+  pos  4, token 19843 ('orientation'), prob: 0.000008
+####################
+
+=== round 2, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e5.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.407759
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.221648
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? structureУ comment++) orientationУ comment+++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3829 ('structure'), prob: 0.000000
+  pos  1, token 30053 ('У'), prob: 0.000000
+  pos  2, token  3440 ('comment'), prob: 0.000031
+  pos  3, token  4862 ('++)'), prob: 0.000001
+  pos  4, token 19843 ('orientation'), prob: 0.000001
+####################
+
+=== round 2, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e6.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.355309
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.270086
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? structureHT commentыеLike a variable, a structure is a name that refers to a memory location. The difference is that a structure is a name that refers to a memory location that contains a collection of data.
+
+The scoping rule of a variable is that the variable is only visible in the scope in which it was declared. The scop
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3829 ('structure'), prob: 0.000000
+  pos  1, token  3912 ('HT'), prob: 0.000000
+  pos  2, token  3440 ('comment'), prob: 0.000011
+  pos  3, token 11489 ('ые'), prob: 0.000000
+  pos  4, token 27552 ('Like'), prob: 0.000022
+####################
+
+=== round 2, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e7.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.354276
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.270086
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? structureHT commentыеLike a variable, a structure is a name that refers to a memory location. The difference is that a structure is a name that refers to a memory location that contains a collection of data.
+
+The scoping rule of a variable is that the variable is only visible in the scope in which it was declared. The scop
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3829 ('structure'), prob: 0.000000
+  pos  1, token  3912 ('HT'), prob: 0.000000
+  pos  2, token  3440 ('comment'), prob: 0.000011
+  pos  3, token 11489 ('ые'), prob: 0.000000
+  pos  4, token 27552 ('Like'), prob: 0.000022
+####################
+
+=== round 2, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e8.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.429287
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.251962
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? structureHT comment чемпіLike a lot of things in programming, it's a bit of a grey area. 
+
+The scoping rule is that a variable declared in a function is only visible within that function. 
+
+So, if you have a function:
+
+    function foo()
+    {
+        var x =
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3829 ('structure'), prob: 0.000000
+  pos  1, token  3912 ('HT'), prob: 0.000000
+  pos  2, token  3440 ('comment'), prob: 0.000011
+  pos  3, token 24309 ('чемпі'), prob: 0.000000
+  pos  4, token 27552 ('Like'), prob: 0.000018
+####################
+
+=== round 2, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r2_e9.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.121622
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.233463
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?натаHT comment чемпіLike a lot of things in programming, it's a bit of a grey area. 
+
+The scoping rule is that a variable is only visible in the scope it was declared in. 
+
+So, if you have a function:
+
+    function foo() {
+        var x = 1
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 10392 ('ната'), prob: 0.000000
+  pos  1, token  3912 ('HT'), prob: 0.000009
+  pos  2, token  3440 ('comment'), prob: 0.000013
+  pos  3, token 24309 ('чемпі'), prob: 0.000001
+  pos  4, token 27552 ('Like'), prob: 0.000027
+####################
+
+=== round 3, epoch 0 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e0.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 2.315433
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.304689
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?Strategy DurantWarning difficultiesriere.
+
+The scoping rule of a variable is that the variable is only visible in the scope in which it is declared.
+
+For example, if you have a function:
+
+    function foo(x) {
+        var y = x;
+        return y;
+    }
+
+Then
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 27714 ('Durant'), prob: 0.000000
+  pos  2, token 22709 ('Warning'), prob: 0.000001
+  pos  3, token 23553 ('difficulties'), prob: 0.000001
+  pos  4, token 15920 ('riere'), prob: 0.000000
+####################
+
+=== round 3, epoch 1 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e1.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 2.306424
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.304689
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?Strategy DurantWarning difficultiesriere.
+
+The scoping rule of a variable is that the variable is only visible in the scope in which it is declared.
+
+For example, if you have a function:
+
+    function foo(x) {
+        var y = x;
+        return y;
+    }
+
+Then
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 27714 ('Durant'), prob: 0.000000
+  pos  2, token 22709 ('Warning'), prob: 0.000001
+  pos  3, token 23553 ('difficulties'), prob: 0.000001
+  pos  4, token 15920 ('riere'), prob: 0.000000
+####################
+
+=== round 3, epoch 2 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e2.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.994278
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.336330
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?StrategyryptionWarning difficulties Monumental difficulty.
+
+The scoping rule of a variable is a rule that determines how a variable is scoped in a program.
+
+The scoping rule of a variable is the rule that determines how a variable is scoped in a program.
+
+The scoping rule of a variable is the
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 14272 ('ryption'), prob: 0.000000
+  pos  2, token 22709 ('Warning'), prob: 0.000005
+  pos  3, token 23553 ('difficulties'), prob: 0.000000
+  pos  4, token 23542 ('Monument'), prob: 0.000000
+####################
+
+=== round 3, epoch 3 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e3.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 2.896563
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.354223
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?StrategyryptionWarningju Monumental question.
+
+The scoping rule of a variable is the rule that determines where a variable can be accessed.
+
+For example, if you have a variable called "x" in a function, you can access it inside the function, but not outside of it.
+
+The scoping rule of
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 26910 ('Strategy'), prob: 0.000000
+  pos  1, token 14272 ('ryption'), prob: 0.000000
+  pos  2, token 22709 ('Warning'), prob: 0.000005
+  pos  3, token  4900 ('ju'), prob: 0.000000
+  pos  4, token 23542 ('Monument'), prob: 0.000000
+####################
+
+=== round 3, epoch 4 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e4.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 1.043455
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.378346
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? Str Analysissklärju Monumental question.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3767 ('Str'), prob: 0.000012
+  pos  1, token 24352 ('Analysis'), prob: 0.000000
+  pos  2, token 18894 ('sklär'), prob: 0.000000
+  pos  3, token  4900 ('ju'), prob: 0.000001
+  pos  4, token 23542 ('Monument'), prob: 0.000000
+####################
+
+=== round 3, epoch 5 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e5.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.957253
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.378346
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? Str Analysissklärju Monumental question.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3767 ('Str'), prob: 0.000012
+  pos  1, token 24352 ('Analysis'), prob: 0.000000
+  pos  2, token 18894 ('sklär'), prob: 0.000000
+  pos  3, token  4900 ('ju'), prob: 0.000001
+  pos  4, token 23542 ('Monument'), prob: 0.000000
+####################
+
+=== round 3, epoch 6 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e6.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 2.165282
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.334678
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? Str Analysisski lungoPreferences:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3767 ('Str'), prob: 0.000012
+  pos  1, token 24352 ('Analysis'), prob: 0.000000
+  pos  2, token  2574 ('ski'), prob: 0.000000
+  pos  3, token 26394 ('lungo'), prob: 0.000000
+  pos  4, token 22173 ('Preferences'), prob: 0.000000
+####################
+
+=== round 3, epoch 7 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e7.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.626950
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.376863
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable? Str Analysisski puestoPreferences: I'm not a native speaker, so please correct me if I'm wrong.
+
+The scoping rule of a variable is the rule that determines where a variable is defined.
+
+For example, if you have a function:
+
+    function f(x) {
+        var y
+
+Per-suffix-token next-token probabilities:
+  pos  0, token  3767 ('Str'), prob: 0.000012
+  pos  1, token 24352 ('Analysis'), prob: 0.000000
+  pos  2, token  2574 ('ski'), prob: 0.000000
+  pos  3, token 28188 ('puesto'), prob: 0.000000
+  pos  4, token 22173 ('Preferences'), prob: 0.000000
+####################
+
+=== round 3, epoch 8 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e8.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.530597
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.353586
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?бом Analysisskie puestoPreferences: Turn on mobile settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 17027 ('бом'), prob: 0.000000
+  pos  1, token 24352 ('Analysis'), prob: 0.000007
+  pos  2, token  3941 ('skie'), prob: 0.000000
+  pos  3, token 28188 ('puesto'), prob: 0.000001
+  pos  4, token 22173 ('Preferences'), prob: 0.000000
+####################
+
+=== round 3, epoch 9 ===
+Read /kaggle/working/hotflip/rounds/trojai-0/suffix_saves/suffix_r3_e9.pt successfully. shape=(5, 32000)
+suffix loss (before projection): 0.081645
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+suffix loss (after  projection): 13.353429
+
+Generated text with suffix (projected):
+What is the scoping rule of a variable?бом estimatedskie puestoPreferences: I'm not a native speaker.
+
+The scoping rule of a variable is the rule that says that a variable declared in a function is only visible inside that function.
+
+For example, if you have a function:
+
+    function foo(x) {
+        var y = x +
+
+Per-suffix-token next-token probabilities:
+  pos  0, token 17027 ('бом'), prob: 0.000000
+  pos  1, token 15899 ('estimated'), prob: 0.000000
+  pos  2, token  3941 ('skie'), prob: 0.000000
+  pos  3, token 28188 ('puesto'), prob: 0.000000
+  pos  4, token 22173 ('Preferences'), prob: 0.000000
+####################
